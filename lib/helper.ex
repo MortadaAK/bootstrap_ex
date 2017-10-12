@@ -1,6 +1,6 @@
 defmodule BootstrapEx.Helper do
 	@moduledoc """
-	This module is used as helper in building classess
+	This module is used as helper in building classes
 	"""
 	@doc """
 	Add base class to a list

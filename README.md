@@ -1,21 +1,41 @@
 # BootstrapEx
 
-**TODO: Add description**
+## Components Coverage
+Components Covered:
+- [x] Alert
+- [x] Badge
+
+TODO Components:
+- [] Breadcrumb
+- [] Buttons
+- [] Button group
+- [] Card
+- [] Carousel
+- [] Collapse
+- [] Dropdowns
+- [] Forms
+- [] Input group
+- [] Jumbotron
+- [] List group
+- [] Modal
+- [] Navs
+- [] Navbar
+- [] Pagination
+- [] Popovers
+- [] Progress
+- [] Scrollspy
+- [] Tooltips
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+Docs [available in Hex](https://hexdocs.pm/bootstrap_ex/BootstrapEx.html), the package can be installed
 by adding `bootstrap_ex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:bootstrap_ex, "~> 0.1.0"}
+    {:bootstrap_ex, "~> 0.0.1"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/bootstrap_ex](https://hexdocs.pm/bootstrap_ex).
-
+You have to install bootstrap 4 using npm

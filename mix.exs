@@ -11,7 +11,7 @@ defmodule BootstrapEx.Mixfile do
 			deps: deps(),
 			name: "BootstrapEx",
 			description: "Build Bootstrap 4 components for Elixir and Phoenix",
-			docs: [source_ref: "v#{@version}", main: "Phoenix.HTML", source_url: "https://github.com/phoenixframework/phoenix_html"],
+			docs: [source_ref: "v#{@version}", main: "BootstrapEx.html", source_url: "https://github.com/mortadaak/bootstrap_ex"],
 			package: package(),
 		]
   end
@@ -27,7 +27,7 @@ defmodule BootstrapEx.Mixfile do
   defp deps do
     [
 			{:phoenix_html, "~> 2.10"},
-			{:ex_doc, "~> 0.12", only: :docs},
+			{:ex_doc, "~> 0.12", only: :dev},
 			{:mix_test_watch, "~> 0.3", only: :dev, runtime: false}      
 		]
 	end
@@ -35,6 +35,7 @@ defmodule BootstrapEx.Mixfile do
     [
 			maintainers: ["Mortada AlKhars"],
      	licenses: ["MIT"],
+			 files: ["lib", "mix.exs", "README*", "LICENSE*"],
 		 	links: %{github: "https://github.com/mortadaak/bootstrap_ex"}
 		]
   end
