@@ -20,3 +20,9 @@ erl_crash.dump
 *.ez
 
 /.elixir_ls
+/_build
+/cover
+/deps
+erl_crash.dump
+*.ez
+*.beam

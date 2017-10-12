@@ -10,7 +10,7 @@ defmodule BootstrapEx.Mixfile do
       start_permanent: Mix.env == :prod,
 			deps: deps(),
 			name: "BootstrapEx",
-			description: "Build Bootstrap 4 components",
+			description: "Build Bootstrap 4 components for Elixir and Phoenix",
 			docs: [source_ref: "v#{@version}", main: "Phoenix.HTML", source_url: "https://github.com/phoenixframework/phoenix_html"],
 			package: package(),
 		]
