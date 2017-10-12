@@ -4,9 +4,9 @@
 Components Covered:
 - [x] Alert
 - [x] Badge
+- [x] Breadcrumb
 
 TODO Components:
-- [] Breadcrumb
 - [] Buttons
 - [] Button group
 - [] Card
