@@ -1,7 +1,7 @@
 {application,bootstrap_ex,
-             [{applications,[kernel,stdlib,elixir,logger]},
-              {description,"bootstrap_ex"},
-              {modules,['Elixir.BootstrapEx']},
+             [{applications,[kernel,stdlib,elixir,logger,phoenix_html]},
+              {description,"Build Bootstrap 4 components"},
+              {modules,['Elixir.BootstrapEx','Elixir.BootstrapEx.Helper']},
               {registered,[]},
-              {vsn,"0.1.0"},
+              {vsn,"0.0.1"},
               {extra_applications,[logger]}]}.
