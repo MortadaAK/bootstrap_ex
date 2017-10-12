@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The directory Mix will write compiled artifacts to.
 /_build/
 
@@ -20,9 +21,15 @@ erl_crash.dump
 *.ez
 
 /.elixir_ls
+=======
+>>>>>>> ff56bb70b997815222d66ad195b09dbad1d01ce8
 /_build
 /cover
 /deps
 erl_crash.dump
 *.ez
+<<<<<<< HEAD
 *.beam
+=======
+*.beam
+>>>>>>> ff56bb70b997815222d66ad195b09dbad1d01ce8
